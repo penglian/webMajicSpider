@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--<site processor="jobProcessor" pipeline="jobPipeline" siteName="BOSS直聘"-->
+          <!--url="https://www.zhipin.com/c101010100/?query="-->
+          <!--endPage="10" threadNum="1"></site>-->
+
+
+    <site processor="jobProcessor" pipeline="jobPipeline" siteName="BOSS直聘"
+          url="https://www.zhipin.com/c101010100/?query="
+          endPage="1000" threadNum="5"></site>
+</root>
